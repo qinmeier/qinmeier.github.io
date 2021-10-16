@@ -30,7 +30,7 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -300,27 +300,28 @@
                 
             </div>
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['',
-                          '',
-                          '',
-                          '',
-                          '',
-                          ''],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
+		 <div class="description center-align">
+			 
+				 <span id="subtitle"></span>
+				 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+				<script>
+					var typed = new Typed("#subtitle", {
+						strings: ['志之所向，金石为开，谁能御之？',
+								  '花开不是为了花落，而是为了开的更加灿烂。',
+								  '没有伞的孩子必须努力奔跑！',
+								  '欲望以提升热忱，毅力以磨平高山。',
+								  '如果放弃太早，你永远都不知道自己会错过什么。',
+								  '没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
+						 startDelay: 300,
+						 typeSpeed: 100,
+						 loop: true,   
+						 backSpeed: 50,
+						 showCursor: true
+					  });
+				  </script>
+			  
+		</div>
+
         </div>
     </div>
 </div>
@@ -499,6 +500,52 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
+                    <a href="/2021/10/16/Java%20Web%E6%A1%88%E4%BE%8B/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Java Web小案例">
+                            
+                            <span class="card-title">Java Web小案例</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Java Web的案例回顾
+请求响应模型（浏览器发送一个请求，服务器响应一个结果）
+浏览器发送请求的方式
+地址栏
+a标签，超链接
+form表单
+
+
+请求参数：发送请求时携带的额外的信息
+请求发送后，通过URL的IP:端口找到对应电脑的对应服
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-16
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                芩芩
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
                     <a href="/2021/10/16/hive%E9%A2%98%E7%9B%AE/">
                         <div class="card-image">
                             
@@ -512,7 +559,13 @@
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                1.统计 2020 年上映的电影中，当前总票房最高的 10 部电影。123456789101112131415161718192021222324252627282930313233343536373839404142434445creat
+                                1.统计 2020 年上映的电影中，当前总票房最高的 10 部电影。create database mydb;
+
+use mydb;
+
+create table moviecleaned(
+movie_name string,
+boxoff
                             
                         </div>
                         <div class="publish-info">
@@ -522,7 +575,7 @@
                             <span class="publish-author">
                                 
                                 <i class="fas fa-user fa-fw"></i>
-                                John Doe
+                                芩芩
                                 
                             </span>
                         </div>
@@ -559,7 +612,7 @@
                             <span class="publish-author">
                                 
                                 <i class="fas fa-user fa-fw"></i>
-                                John Doe
+                                芩芩
                                 
                             </span>
                         </div>
@@ -643,7 +696,7 @@
                 <span id="year">2021</span>
             
             <span id="year">2021</span>
-            <a href="/about" target="_blank">John Doe</a>
+            <a href="/about" target="_blank">芩芩</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
@@ -874,6 +927,10 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+	
+	<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+	<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+	<script type="text/javascript" src="/js/fireworks.js"></script>
 
 </body>
 

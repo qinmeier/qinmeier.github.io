@@ -241,12 +241,12 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4cbf30 0%, #FF308F 100%);
 	opacity: 0.8;
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #FF308F !important;
 }
 
 .white-color {
